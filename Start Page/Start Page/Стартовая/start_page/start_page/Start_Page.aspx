@@ -6,10 +6,11 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width"/>
+    <link href="Common/css/reset.css" rel="stylesheet" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-    <script src="Common/lib/bootstrap/js/jquery-2.1.4.js"></script>
-    <link href="Common/css/bootstrap.css" rel="stylesheet" />
-     <script src="Common/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="Common/lib/bootstrap/js/jquery-2.1.4.min.js"></script>
+    <link href="Common/css/bootstrapchange.css" rel="stylesheet" />
+    <script src="Common/lib/bootstrap/js/bootstrap.min.js"></script>
     <link href="Common/css/menu.css" rel="stylesheet" />
     <link href="Common/css/First_look_area.css" rel="stylesheet" />
      <title>Fuffy</title>
@@ -186,7 +187,7 @@
                                                                                 <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/look.com.ua-71249.jpg" />
                                                                             </div>
                                                                            <div class="row">
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/17.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/3287x2183_537145_[www.ArtFile.ru].jpg" />
                                                                                 <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/11a.jpg" />
                                                                                 <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/7.jpg" />
                                                                                 <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2" src="Common/images/look.com.ua-71249.jpg" />
