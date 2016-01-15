@@ -8,14 +8,15 @@
 <meta name="viewport" content="width=device-width"/>
     <link href="Common/css/reset.css" rel="stylesheet" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-    <script src="Common/lib/bootstrap/js/jquery-2.1.4.min.js"></script>
-    <link href="Common/css/bootstrapchange.css" rel="stylesheet" />
-    <script src="Common/lib/bootstrap/js/bootstrap.min.js"></script>
-    <link href="Common/css/menu.css" rel="stylesheet" />
-    <link href="Common/css/First_look_area.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap/js/jquery-2.1.4.min.js"></script>
+    <link href="Content/css/lib/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap/js/bootstrap.min.js"></script>
+
+    <link href="Content/css/StartPage.css" rel="stylesheet" />
      <title>Fuffy</title>
 </head>
 <body>
+    <div class="container-fluid">
               <div class="wrap ">
                              <nav class="navbar navbar-default navbar-inverse menu" role="navigation" >
                                  <div class="container-fluid">
@@ -108,29 +109,29 @@
               <%--    Здесь начинается слайдер--%>
 
 
-                   <div id="carousel" class="carousel slide" >
+                   <div id="carousel" class="carousel slide" data-interval="10000"; data-pause="hover" >
                         <ol class="carousel-indicators">
-                            <li class="active" data-target="#i-carousel" data-slide-to="0"></li> <!-- для включения прокрутки здесь в классе active вставить букву e-->
+                            <li class="active" data-target="#carousel" data-slide-to="0"></li> <!-- для включения прокрутки здесь в классе active вставить букву e-->
                             <li data-target="#carousel" data-slide-to="1"></li>
                             <li data-target="#carousel" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner"  >
                             <div class="item active">
-                               <img  src="Common/images/11a.jpg" />
+                               <img  src="Content/images/11a.jpg" />
                                 <div class="carousel-caption">
                                     <h3>Улови красоту</h3>
                                     <p></p>
                                 </div>
                             </div>
                             <div class="item">
-                            <img src="Common/images/11b.jpg" />
+                            <img src="Content/images/11b.jpg" />
                                 <div class="carousel-caption">
                                     <h3> Запечатли закат</h3>
                                     <p> </p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img  src="Common/images/11a.jpg" />
+                                <img  src="Content/images/11a.jpg" />
                                 <div class="carousel-caption">
                                     <h3>Создай шедевр</h3>
                                     <p></p>
@@ -148,7 +149,7 @@
                     </div>
 
           <div class="white">
-                <img class="img-responsive" src="Common/images/Fuffy.png" />
+                <img class="img-responsive" src="Content/images/Fuffy.png" />
 
 
                 </div>
@@ -158,46 +159,46 @@
               </div>
               <div class="medium-part container-fluid">
                    <h2>Крупнейшее сообщество для профессиональных фотографов и любителей, дизайнеров, стилистов и просто креативных людей, ищущих вдохновение</h2>
-                        <div class="t container-fluid">                
+                        <div class="container-fluid">                
                                       <div class="metka row" >
                                               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 photo-of-day" style=" padding: 0px; padding-bottom: 5px;">
                                                     <h5 style="color: white; text-align: center;">Фото дня</h5> 
-                                            <img class="photo-of-day col-lg-12 col-md-12 col-sm-12 col-xs-12" src="Common/images/best.jpg" />
+                                            <img class="photo-of-day col-lg-12 col-md-12 col-sm-12 col-xs-12" src="Content/images/best.jpg" />
                                          
                                                 </div>
                                                      <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-6 photo-for-score" >
                                                           <h5 style="color: white; text-align: center; padding: 10px;">Ждут критики</h5>
                                                                  <div class=" photo-for-score-container container-fluid">
                                                                            <div class="row">
-                                                                                <img class=" imag col-lg-3 col-md-3 col-sm-2 col-xs-2" src="Common/images/look.com.ua-71249.jpg" />
-                                                                                <img class=" imag col-lg-3 col-md-3 col-sm-2 col-xs-2" src="Common/images/best.jpg" />
-                                                                                <img class=" imag col-lg-3 col-md-3 col-sm-2 col-xs-2" src="Common/images/11a.jpg" />
-                                                                                <img class=" imag col-lg-3 col-md-3 col-sm-2 col-xs-2" src="Common/images/1.jpg" />
+                                                                                <img class=" imag col-lg-3 col-md-3 col-sm-3 col-xs-3" src="Content/images/look.com.ua-71249.jpg" />
+                                                                                <img class=" imag col-lg-3 col-md-3 col-sm-3 col-xs-3" src="Content/images/best.jpg" />
+                                                                                <img class=" imag col-lg-3 col-md-3 col-sm-3 col-xs-3" src="Content/images/11a.jpg" />
+                                                                                <img class=" imag col-lg-3 col-md-3 col-sm-3 col-xs-3" src="Content/images/1.jpg" />
                                                                             </div>
                                                                            <div class="row">
-                                                                                <img class="imag col-lg-3col-md-3 col-sm-2 col-xs-2" src="Common/images/7.jpg" />
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2" src="Common/images/best.jpg" />
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2" src="Common/images/3287x2183_537145_[www.ArtFile.ru].jpg" />
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2" src="Common/images/look.com.ua-71249.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3" src="Content/images/7.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3" src="Content/images/best.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3" src="Content/images/3287x2183_537145_[www.ArtFile.ru].jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3" src="Content/images/look.com.ua-71249.jpg" />
                                                                             </div>
                                                                            <div class="row">
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"   src="Common/images/best.jpg" />
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/3287x2183_537145_[www.ArtFile.ru].jpg" />
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/1.jpg" />
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/look.com.ua-71249.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3"  src="Content/images/best.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3"  src="Content/images/3287x2183_537145_[www.ArtFile.ru].jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3"  src="Content/images/1.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3"  src="Content/images/look.com.ua-71249.jpg" />
                                                                             </div>
                                                                            <div class="row">
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/3287x2183_537145_[www.ArtFile.ru].jpg" />
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/11a.jpg" />
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2"  src="Common/images/7.jpg" />
-                                                                                <img class="imag col-lg-3 col-md-3 col-sm-2 col-xs-2" src="Common/images/look.com.ua-71249.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3"  src="Content/images/3287x2183_537145_[www.ArtFile.ru].jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3"  src="Content/images/11a.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3"  src="Content/images/7.jpg" />
+                                                                                <img class="imag col-lg-3 col-md-3 col-sm-3 col-xs-3"  src="Content/images/look.com.ua-71249.jpg" />
                                                                               </div>
                                                                  </div>
                                                      </div>
                                       </div>
                         </div>
               </div>
-
+        </div>
         
     
   <%--  <footer >
